@@ -1,4 +1,4 @@
-// Copyright © 2019 Coleman Word coleman.word@gofunct.com
+// Copyright © 2019 Coleman Word coleman.word@autom8ter.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -16,7 +16,7 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/gofunct/fsctl"
+	"github.com/autom8ter/fsctl"
 	"os"
 
 	"github.com/spf13/cobra"
@@ -35,8 +35,8 @@ var rootCmd = &cobra.Command{
 	Use:   "goexec",
 	Short: "goexec is a scripting utility tool that combines the power of golang and bash scripts as a single binary",
 	Long: `
-Author: Coleman Word coleman.word@gofunct.com
-Download: go get github.com/gofunct/goexec/goexec
+Author: Coleman Word coleman.word@autom8ter.com
+Download: go get github.com/autom8ter/goexec/goexec
 License: MIT
   _____       ______               
  / ____|     |  ____|              

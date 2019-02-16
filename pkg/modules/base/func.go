@@ -1,6 +1,6 @@
 package base
 
-import "github.com/gofunct/fsctl"
+import "github.com/autom8ter/fsctl"
 
 func NewAssetFunc() fsctl.AssetFunc {
 	return func(s string) (bytes []byte, e error) {

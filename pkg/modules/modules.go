@@ -1,13 +1,18 @@
 package modules
 
 import (
-	"github.com/gofunct/fsctl"
-	"github.com/gofunct/goexec/pkg/util"
+	"github.com/autom8ter/fsctl"
+	"github.com/autom8ter/fsctl/clone"
+	"github.com/autom8ter/goexec/pkg/util"
 	"io"
 )
 
 func init() {
-	Fs = fsctl.NewFs()
+	var err error
+	Fs, err = fsctl.NewFs(clone.NewAuthCloner())
+	if err != nil {
+		panic(err)
+	}
 }
 
 var (

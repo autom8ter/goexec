@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/gofunct/goexec"
+	"github.com/autom8ter/goexec"
 )
 
 func init() {

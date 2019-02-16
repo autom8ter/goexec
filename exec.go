@@ -1,6 +1,6 @@
 package goexec
 
-import "github.com/gofunct/goexec/pkg/commander"
+import "github.com/autom8ter/goexec/pkg/commander"
 
 type GoExec struct {
 	*commander.Commander

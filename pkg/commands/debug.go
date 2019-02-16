@@ -17,7 +17,7 @@ package commands
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gofunct/goexec/pkg/util"
+	"github.com/autom8ter/goexec/pkg/util"
 	"github.com/spf13/cobra"
 )
 

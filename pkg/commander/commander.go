@@ -2,9 +2,9 @@ package commander
 
 import (
 	"fmt"
-	"github.com/gofunct/goexec/pkg/commands"
-	"github.com/gofunct/goexec/pkg/exec"
-	"github.com/gofunct/goexec/pkg/util"
+	"github.com/autom8ter/goexec/pkg/commands"
+	"github.com/autom8ter/goexec/pkg/exec"
+	"github.com/autom8ter/goexec/pkg/util"
 	"github.com/spf13/cobra"
 	"os"
 )

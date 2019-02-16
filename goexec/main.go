@@ -14,7 +14,7 @@
 
 package main
 
-import "github.com/gofunct/goexec/goexec/cmd"
+import "github.com/autom8ter/goexec/goexec/cmd"
 
 func main() {
 	cmd.Execute()

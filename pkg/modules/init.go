@@ -1,8 +1,8 @@
 package modules
 
 import (
-	"github.com/gofunct/goexec/pkg/modules/base"
-	"github.com/gofunct/goexec/pkg/util"
+	"github.com/autom8ter/goexec/pkg/modules/base"
+	"github.com/autom8ter/goexec/pkg/util"
 	"io"
 	"strings"
 )

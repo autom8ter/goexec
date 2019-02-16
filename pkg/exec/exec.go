@@ -19,7 +19,7 @@ package exec
 import (
 	"context"
 	"encoding/json"
-	"github.com/gofunct/goexec/pkg/util"
+	"github.com/autom8ter/goexec/pkg/util"
 	"io"
 	"os"
 	osexec "os/exec"

@@ -1,4 +1,4 @@
-// Copyright © 2019 Coleman Word coleman.word@gofunct.com
+// Copyright © 2019 Coleman Word coleman.word@autom8ter.com
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 package cmd
 
 import (
-	"github.com/gofunct/goexec/pkg/modules"
+	"github.com/autom8ter/goexec/pkg/modules"
 	"github.com/spf13/cobra"
 )
 

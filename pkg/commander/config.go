@@ -3,7 +3,7 @@ package commander
 import (
 	"bytes"
 	"github.com/Masterminds/sprig"
-	"github.com/gofunct/goexec/pkg/util"
+	"github.com/autom8ter/goexec/pkg/util"
 	"os"
 	"strings"
 	"text/template"
